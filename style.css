@@ -7,7 +7,7 @@ body {
 
 .main {
     position: relative;
-    background-image: url(https://github.com/mariana-birchyn/Homework4/blob/main/Background.png);
+    background-image: url(/images/Background.png);
     background-color: #264d73;
     width: 814px;
     height: 540px;
@@ -27,8 +27,9 @@ body {
     box-sizing: border-box;
     box-shadow: 1px 1px 1px rgba(32, 33, 35, 0.0899853), 1px 1px 4px rgba(0, 0, 0, 0.152202);
     background-color: green;
-    background-image: url(https://github.com/mariana-birchyn/Homework4/blob/main/Icon.png);
-
+    background-image: url(/images/Icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text {
@@ -148,6 +149,11 @@ body {
     border-radius: 50%;
     top: -20px;
     left: 20px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
 }
 
 .text2 {
