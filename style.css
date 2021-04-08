@@ -1,0 +1,181 @@
+body {
+    
+    width: 1000px;
+    height: 900px;
+    background: #4d4d4d;
+}
+
+.main {
+    position: relative;
+    background-image: url(https://github.com/mariana-birchyn/Homework4/blob/main/Background.png);
+    background-color: #264d73;
+    width: 814px;
+    height: 540px;
+    top: 150px;
+    left: 200px;
+    border-radius: 8px;
+}
+
+.buttonX {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px rgba(32, 33, 35, 0.0899853), 1px 1px 4px rgba(0, 0, 0, 0.152202);
+    background-color: green;
+    background-image: url(https://github.com/mariana-birchyn/Homework4/blob/main/Icon.png);
+
+}
+
+.text {
+    position: absolute;
+    font-family: 'Heebo', sans-serif;
+    top: 20px;
+    left: 215px;
+    color: #FFFFFF;
+}
+
+.p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.button2 {
+    position: absolute;
+    width: 187px;
+    height: 42px;
+    top: 150px;
+    left: 315px;
+    font-family: 'Heebo', sans-serif;
+    background: #0093EE;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: inset -1px 1px 0px rgba(255, 255, 255, 0.0001);
+    border-radius: 4px;
+    color: #FFFFFF;
+    
+}
+
+.table {
+    position: relative;
+    display: flex;
+    top: 230px;
+    justify-content: space-around;
+}
+
+.table1{
+    position: relative;
+    width: 170px;
+    height: 250px;
+    background: #26374C;
+    border: 1px solid rgba(255, 255, 255, 0.0409307);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.172809), inset 0px -1px 0px rgba(255, 255, 255, 0.0760586);
+    border-radius: 4px; 
+}
+.table2{
+    position: relative;
+    width: 170px;
+    height: 250px;
+    background: #26C1C9;;
+    border: 1px solid rgba(255, 255, 255, 0.0409307);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.172809), inset 0px -1px 0px rgba(255, 255, 255, 0.0760586);
+    border-radius: 4px;
+}
+.table3{
+    position: relative;
+    width: 170px;
+    height: 250px;
+    background: #26374C;
+    border: 1px solid rgba(255, 255, 255, 0.0409307);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.172809), inset 0px -1px 0px rgba(255, 255, 255, 0.0760586);
+    border-radius: 4px;
+}
+.table4{
+    position: relative;
+    width: 170px;
+    height: 250px;
+    background: #26374C;
+    border: 1px solid rgba(255, 255, 255, 0.0409307);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.172809), inset 0px -1px 0px rgba(255, 255, 255, 0.0760586);
+    border-radius: 4px;
+}
+
+.icon1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #AB7DF6;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+}
+.icon2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #26C1C9;;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+}
+.icon3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #81C926;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+}
+.icon4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #FACA00;;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+}
+
+.text2 {
+    position: absolute;
+    font-size: 13px;
+    line-height: 19px;
+    color: #67859E;
+    top: 500px;
+    left: 80px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.endtext{
+    position: relative;
+    top: 155px;
+    left: 490px; 
+    display: flex;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 19px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    /* justify-content: center; */
+}
+.line{
+    width: 1px;
+    height: 15px;
+    background:  #730099;
+    margin: 5px; 
+    
+}
